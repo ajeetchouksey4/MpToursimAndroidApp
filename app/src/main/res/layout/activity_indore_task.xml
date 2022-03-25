@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".IndoreTask">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+
+        <ImageView
+            android:id="@+id/indore1"
+            android:layout_width="match_parent"
+            android:layout_height="267dp"
+            android:src="@drawable/img_1"></ImageView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Indore"
+            android:gravity="center"
+            android:textSize="50sp"
+            android:textStyle="bold"></TextView>
+
+        <TextView
+            android:id="@+id/textBhopalIntro"
+            android:layout_width="wrap_content"
+            android:layout_height="276dp"
+            android:paddingTop="10dp"
+            android:text="Indore /ɪnˈdɔːr/ (audio speaker iconlisten) is the most populous and the largest city in the Indian state of Madhya Pradesh.[15] It serves as the headquarters of both Indore District and Indore Division. It is also considered as an education hub of the state and has campuses of both the Indian Institute of Technology and the Indian Institute of Management.[16] Located on the southern edge of Malwa Plateau, at an average altitude of 553 meters (1,814 ft) above sea level,[17] it has the highest elevation among major cities of Central India. The city is 190 km (120 mi) west of the state capital of Bhopal. Indore had a census-estimated 2011 population of 1,994,397 (municipal corporation)[9] and 3,570,295 (urban agglomeration).[10] The city is distributed over a land area of just 530 square kilometres (200 sq mi), making Indore the most densely populated major city in the central province."></TextView>
+
+        <ImageView
+            android:id="@+id/bhopalMap"
+            android:layout_width="match_parent"
+            android:layout_height="152dp"
+            android:src="@drawable/img_2"></ImageView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="165dp"
+            android:text="Indore traces its roots to its 16th-century founding as a trading hub between the Deccan and Delhi. The city and its surroundings came under Maratha Empire on 18 May 1724 after Peshwa Baji Rao I assumed the full control of Malwa. During the days of the British Raj, Indore State was a 19 Gun Salute (21 locally) princely state (a rare high rank) ruled by the Maratha Holkar dynasty, until they acceded to the Union of India.[18] Indore served as the capital of the Madhya Bharat from 1950 until 1956."></TextView>
+
+        <ImageView
+            android:id="@+id/rajaBhoj"
+            android:layout_width="wrap_content"
+            android:layout_height="258dp"
+
+            android:src="@drawable/img_3"></ImageView>
+    </LinearLayout>
+
+
+</ScrollView>

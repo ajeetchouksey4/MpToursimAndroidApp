@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".BhoaplTask">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+>
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/bhopal1"></ImageView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="Bhopal"
+        android:gravity="center"
+        android:textSize="50sp"
+        android:textStyle="bold"></TextView>
+
+    <TextView
+        android:id="@+id/textBhopalIntro"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Bhopal (/boʊˈpɑːl/; Hindustani: [bʱoːpaːl] (audio speaker iconlisten)) is the capital city of the Indian state of Madhya Pradesh and the administrative headquarters of both Bhopal district and Bhopal division.[10][11] It is known as the City of Lakes[12] for its various natural and artificial lakes and for being one of the greenest cities in India.[13] It is the 16th largest city in India and 131st[14] in the world. After formation of Madhya Pradesh, the state capital Bhopal was a part of the Sehore district. It was bifurcated in 1972 and a new district Bhopal was formed. Flourishing around 1707, the city was the capital of the former Bhopal State, a princely state of the British ruled by the Nawabs of Bhopal. Numerous heritage structures from this period include the Taj-ul-Masajid and Taj Mahal palace. In 1984, the city was struck by the Bhopal disaster, one of the worst industrial disasters in history.">
+
+    </TextView>
+
+    <ImageView
+        android:id="@+id/bhopalMap"
+        android:layout_width="331dp"
+        android:layout_height="wrap_content"
+        android:src="@drawable/bhopal4"
+        ></ImageView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="According to folklore, Bhopal was founded in the 11th century by the Paramara king Bhoja, who ruled from his capital at Dhar. This theory states that Bhopal was originally known as Bhojpal after a dam (pal) constructed by the king's minister.[4] An alternative theory says that the city is named after another king called Bhupala (or Bhupal)."
+        ></TextView>
+    <ImageView
+        android:id="@+id/rajaBhoj"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:src="@drawable/img_3"></ImageView>
+</LinearLayout>
+
+
+</ScrollView>
